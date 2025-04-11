@@ -1,0 +1,190 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 30px;
+    font-weight: bold;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  header a:hover{
+    color: blue;
+    padding: 0px;
+}
+body{
+    background-color: #FDF7F0;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+nav {
+    padding: 15px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+nav li a:hover {
+    background-color: #FDF7F0;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    font-size: larger;
+}
+#home{
+    text-align: left;
+}
+img{
+            justify-content: right;
+            width: 100%;
+            max-width: 80px;
+            border: 1px solid #0a0a0a;;
+            border-radius: 10px;
+            padding: 5px;
+            transition: transform 0.2s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.2);
+            border: 1px solid;
+        }
+fieldset{
+    background: #FDF7F0;
+    border: 1px solid #0a0a0a;
+}
+#Bio h1{
+    text-align: center;
+}
+#Skills h1{
+    text-align: center;
+}
+#Education h1{
+    text-align: center;
+}
+#Experience h1{
+    text-align: center;
+}
+.skills-section {
+    display: flex;
+    align-items: center;
+    background-color: #ede4dd;
+    padding: 30px; 
+    border: none;  
+    gap: 60px;    
+    width: 100%;
+    box-sizing: border-box;
+}
+
+  
+  .skills-label {
+    background-color: #cfd2d3;
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start; 
+  }
+  
+  
+  .skill-item {
+    background-color: #cfd2d3;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 300px;        
+    max-width: 100%;       
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.education-grid {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .edu-card {
+    flex: 1;
+    background-color: #fdf7f0;
+    padding: 10px;
+  }
+  
+  .edu-card h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  footer{
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    color:blue;
+    }
+section {
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .experience-text {
+    flex: 1;
+  }
+  
+  .image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+  }
+  
+  .image-stack img {
+    max-width: 150px;
+    border: 1px solid #0a0a0a;
+    border-radius: 10px;
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
